@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <!-- {{% if data=='register'%}} -->
+
+        <h2>REGISTER FORM </h2>
+        <label for="username"> username</label> <input type="text" name="usernaem" id="username">
+        <label for="password"> password</label> <input type="password" name="password" >
+        <label for="email"> email</label> <input type="email" name="email" >
+        <input type='button' value="register">
+        
+        <!-- {{% elif data=='login'%}} -->
+        <label for="usernaem">usernaem</label> <input type="text" name="username">
+        <label for="password">password</label> <input type="password" name="password">
+        <input type="button" value="login">
+        <!-- {{% endif%}} -->
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <h1>welcome</h1>
+    <table border="2">
+        <tr>
+            <td> id </td>
+            <td>name</td>
+            <td>email</td>
+        </tr>
+        <tr>
+        {{% for i in data%}}
+            <td> {{i}}</td>
+            <td> {{i.name}}</td>
+            <td> {{i.email}} </td>
+        {{% endfor%}}
+        </tr>
+
+    </table>
+</body>
+</html>
